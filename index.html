@@ -18,7 +18,6 @@
             <!-- Banner Ad -->
             <div id="banner-ad" class="ad-container">
                 <ins class="adsbygoogle"
-                     style="display:block"
                      data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
                      data-ad-slot="XXXXXXXXXX"
                      data-ad-format="auto"
@@ -60,16 +59,15 @@
         <div class="summary">
             <h2>Summary</h2>
             <p>Total Expenses: $<span id="total-amount">0.00</span></p>
-            <div id="premium-features" style="display: none;">
+            <div id="premium-features">
                 <h3>Premium Features</h3>
                 <button onclick="exportToCSV()">Export to CSV</button>
                 <button onclick="renderChart()">Show Charts</button>
-                <canvas id="expense-chart" style="max-width: 400px; margin-top: 20px;"></canvas>
+                <canvas id="expense-chart"></canvas>
             </div>
             <div id="ads" class="ad-container">
                 <!-- Sidebar Ad -->
                 <ins class="adsbygoogle"
-                     style="display:block"
                      data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
                      data-ad-slot="XXXXXXXXXX"
                      data-ad-format="auto"
