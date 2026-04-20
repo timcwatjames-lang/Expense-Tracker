@@ -150,6 +150,8 @@ th {
 .ad-container {
     margin: 20px 0;
     text-align: center;
+    min-width: 300px;
+    width: 100%;
 }
 
 #premium-features {
