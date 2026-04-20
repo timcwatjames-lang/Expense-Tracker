@@ -123,8 +123,8 @@ function checkPremium() {
 }
 
 function upgradeToPremium() {
-    // Replace with your actual Stripe payment link
-    const paymentUrl = 'https://buy.stripe.com/YOUR_ACTUAL_PAYMENT_LINK_HERE';
+    // Flutterwave payment link for premium upgrade
+    const paymentUrl = 'https://sandbox.flutterwave.com/pay/mz5f5dgurlc7';
 
     window.location.href = paymentUrl;
 }
