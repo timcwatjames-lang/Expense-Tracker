@@ -125,7 +125,7 @@ function checkPremium() {
 function upgradeToPremium() {
     // Replace with your actual Stripe payment link
     // For testing, you can use the test page
-    const paymentUrl = 'https://buy.stripe.com/YOUR_ACTUAL_PAYMENT_LINK_HERE';
+    const paymentUrl = 'https://sandbox.flutterwave.com/pay/mz5f5dgurlc7';
 
     // Uncomment the line below for testing with the test page
     // const paymentUrl = 'test-premium.html';
