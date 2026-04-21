@@ -216,6 +216,9 @@ th {
 
     .ad-container {
         min-width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: visible;
     }
 
     .summary, .expense-list {
