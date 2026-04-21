@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
@@ -189,6 +188,10 @@ th {
 
 /* Responsive Design */
 @media (max-width: 600px) {
+    *{
+        overflow-x: hidden;
+    }
+
 
     .container {
         padding: 10px;
