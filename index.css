@@ -188,9 +188,6 @@ th {
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    *{
-        overflow-x: auto;
-    }
 
     .container {
         padding: 10px;
