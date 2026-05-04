@@ -149,6 +149,17 @@ th {
     background-color: #c0392b;
 }
 
+.ad-container {
+    margin: 20px 0;
+    text-align: center;
+    min-width: 300px;
+    width: 100%;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
 #premium-features {
     background: #ecf0f1;
     padding: 15px;
@@ -205,6 +216,13 @@ th {
 
     #expense-chart {
         max-width: 100%;
+    }
+
+    .ad-container {
+        min-width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: visible;
     }
 
     .summary, .expense-list {
